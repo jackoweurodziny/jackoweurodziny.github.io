@@ -31,6 +31,10 @@ header {
     border-bottom: 20px black solid;
 }
 
+h1 {
+    font-family: "Roboto Slab", serif;
+}
+
 h3 {
     font-family: "Roboto Slab", serif;
     font-size: 2.2em;
@@ -39,6 +43,14 @@ h3 {
 p {
     font-family: "Lato", sans-serif;
     font-size: 1.1em;
+}
+
+#prefaceEnd {
+    margin-bottom: 25px;
+}
+
+#taskOne {
+    margin-top: 25px;
 }
 
 button {
@@ -66,6 +78,46 @@ button {
     border-radius: 20px;
 }
 
+.squares {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.squareOne {
+    width: 15%;
+    height: 5%;
+    background-color: orangered;
+    color: orangered;
+    display: inline-block;
+}
+
+.squareTwo {
+    width: 15%;
+    height: 5%;
+    background-color: purple;
+    color: purple;
+    display: inline-block;
+}
+
+.squareThree {
+    width: 15%;
+    height: 5%;
+    background-color: green;    
+    color: green;
+    display: inline-block;
+}
+
+.times {
+    display: inline-block;
+    width: 20%;
+}
+
+.clear {
+    clear: both;
+}
+
 footer {
     height: 10vh;
     background-color: #232323;
@@ -81,6 +133,10 @@ footer p {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+
+#luv {
+    color: red;
 }
 
 .hide {

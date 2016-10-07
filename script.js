@@ -7,9 +7,15 @@ var formTwoContainer = document.querySelector("#formTwoContainer");
 var verifyOneButton = document.querySelector("#verifyOne");
 var verifyTwoButton = document.querySelector("#verifyTwo");
 
+var sectionOne = document.querySelector("#taskOne");
 var sectionTwo = document.querySelector("#taskTwo");
 var sectionThree = document.querySelector("#taskThree");
 
+var showButton = document.querySelector("#showOne");
+
+showButton.addEventListener("click", function(){
+    sectionOne.classList.toggle("hide");
+});
 
 verifyOneButton.addEventListener("click", function(){
     if (formOne.value === "jackoweurodziny") {
