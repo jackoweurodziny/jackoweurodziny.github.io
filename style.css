@@ -51,7 +51,7 @@ button {
     border-color: black;
     border-width: 1px 0 0 0;
     border-radius: 20px;
-    width: 33%;
+    width: 66%;
 }
 
 .divide:before { /* Not really supposed to work, but does */
